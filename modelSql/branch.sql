@@ -1,0 +1,8 @@
+CREATE TABLE branches(
+    id UUID NOT NULL PRIMARY KEY ,
+    name VARCHAR NOT NULL,
+    address VARCHAR NOT NULL,
+    createdAt TIMESTAMP NOT NULL,
+    foundedAt TIMESTAMP NOT NULL,
+    year INT NOT NULL
+);
